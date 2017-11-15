@@ -12,8 +12,9 @@ $path_parts = pathinfo($phpSelf);
         <meta charset="UTF-8">
         <meta name="Author" content="Ben Wasser and Bo Warren">
         <meta name="Description" content="news, statistics, and images of vermont skiing and snowboarding">
-        <meta name="viewport" content="width=devicew"
+        <meta name="viewport" content="width=devicew">
               
+        <link rel="stylesheet" href="final.css" type="text/css" media="screen">
         
     </head>
 </html>

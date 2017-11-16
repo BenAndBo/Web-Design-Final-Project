@@ -18,4 +18,3 @@ $path_parts = pathinfo($phpSelf);
               
         
     </head>
-</html>

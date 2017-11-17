@@ -1,3 +1,30 @@
 h1 {
-  font-family: sans-serif;
+    border: solid black;
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 3em;
+    margin-bottom: 0em;
+}
+
+nav ol li {
+    display: inline-block;
+    list-style-type: none;
+    padding-right: 3em;
+    font-family: sans-serif;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+nav ol {
+    background-color: #839e99;
+    text-align: center;
+}
+
+nav ol li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+nav ol li a:hover {
+    color: #dddddd;
 }

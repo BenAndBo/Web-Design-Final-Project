@@ -28,3 +28,20 @@ nav ol li a {
 nav ol li a:hover {
     color: #dddddd;
 }
+
+/* =================== MEDIA PAGE ==================================== */
+h2 {
+    font-family: sans-serif;
+    font-size: 2em;
+    margin-left: 10%;
+}
+
+table {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+td {
+    font-family: sans-serif;
+}

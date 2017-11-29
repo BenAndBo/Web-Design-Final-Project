@@ -59,7 +59,7 @@ fclose($file);
 ?>
 
         <h2>Resorts</h2>
-        <table>
+        <table id="resortsTable">
             <tr>
                 <th>Resort</th>
                 <th>Number of Trails</th>

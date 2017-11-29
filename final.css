@@ -56,3 +56,19 @@ td {
     font-family: sans-serif;
     text-align: left;
 }
+
+#resortsTable tr:nth-child(odd) {
+    background-color: aliceblue;
+}
+
+#resortsTable tr:nth-child(even) {
+    background-color: antiquewhite;
+}
+
+#resortsTable tr:hover {
+    background-color: cornflowerblue;
+}
+
+#resortsTable tr td, #resortsTable tr th {
+    padding: 0.5em 0em 0.5em 0.5em;
+}

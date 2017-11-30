@@ -1,12 +1,18 @@
 <?php
     include ('Ftop.php');
+   
 ?>
+
+
 
 <article>
     <body id="home">
+        
         <header>
             <h1>Welcome to ShredVT!</h1>
         </header>
+        
+     
         
     <article id="content">
         <p>Welcome to ShredVT, the ideal space for Vermont skiers and riders to 
@@ -15,11 +21,18 @@
             check up on the conditions, compare prices, and check out what other 
             skiers and riders are up to.</p>
         
-        <figure class="center-medium">
-            <img alt="" src="Final Project/Images/boarder-starr.jpg"
-        </figure>
         
-        <h1>History of Skiing in Vermont</h1>
+        <figure>
+            <img id="ben" src="Images/benskiing.jpeg" img alt="Ben Skiing"
+                 
+        </figure> 
+        
+        <figure>
+            <img id="bo" src="Images/boboarding.png" img alt="Bo Snowboarding"
+                 
+        </figure> 
+        
+        <h2>History of Skiing in Vermont</h2>
         
         <p>Since the early 20’th century, skiing has been a part of Vermont 
             culture. Back in 1934, a tow rope powered by a Model-T Ford was set 
@@ -48,5 +61,7 @@
             
             
 </article>
-</body>
-</html>
+    </body>
+    <?php
+         include ('Ffooter.php');
+    ?>

@@ -12,62 +12,41 @@ $path_parts = pathinfo($phpSelf);
         <meta name="Description" content="news, statistics, and images of vermont skiing and snowboarding">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         
-        <link rel="stylesheet" href="final.css" type="text/css" media="screen">
+        <link rel="stylesheet" href="Final.css" type="text/css" media="screen">
               
         
+  <?php
+  $debug = false;
+          if(isset($_GET["debug"])) {
+              $debug = true;
+          }
+          
+ 
+//%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%^%          
+          
+          $domain = "//";
+          
+          $server = htmlentities($_SERVER['SERVER_NAME'], ENT_QUOTES, 'UTF-8');
+          
+          $domain .= $server;
+          
+          
+            if ($debug) {
+                print '<p>php Self: ' . $phpSelf;
+                print '<p>Path Parts<pre>';
+                print_r($path_parts);
+                print '</pre></p>';
+            }
+?>
+
     </head>
-    <body>
-        <h1>Shred VT</h1>
-        <nav>
-            <ol>
-                <?php
-                print '<li class="';
-                if ($path_parts['filename'] == "home") {
-                    print ' activePage ';
-                }
-                print '">';
-                print '<a href="home.php">Home</a>';
-                print '</li>';
-                print '<li class="';
-                if ($path_parts['filename'] == "news") {
-                    print ' activePage ';
-                }
-                print '">';
-                print '<a href="news.php">News</a>';
-                print '</li>';
-        
-                print '<li class="';
-                if ($path_parts['filename'] == "resorts") {
-                    print ' activePage ';
-                }
-                print '">';
-                print '<a href="resorts.php">Resorts</a>';
-                print '</li>';
-        
-                print '<li class="';
-                if ($path_parts['filename'] == "conditions") {
-                    print ' activePage ';
-                }
-                print '">';
-                print '<a href="conditions.php">Conditions</a>';
-                print '</li>';
-        
-                print '<li class="';
-                if ($path_parts['filename'] == "media") {
-                    print ' activePage ';
-                }
-                print '">';
-                print '<a href="media.php">Media</a>';
-                print '</li>';
-        
-                print '<li class="';
-                if ($path_parts['filename'] == "contact") {
-                    print ' activePage ';
-                }
-                print '">';
-                print '<a href="contact.php">Contact</a>';
-                print '</li>';
-        
-                ?>
-            </ol>
-        </nav>
+    <!-- ################ body section ######################### -->
+
+    <?php
+    print '<body id="' . $path_parts['filename'] . '">';
+    include 'Fheader.php';
+    include 'Fnav.php';
+    if ($debug) {
+        print '<p>DEBUG MODE IS ON</p>';
+    }
+    ?>

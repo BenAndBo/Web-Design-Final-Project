@@ -58,7 +58,7 @@ fclose($file);
 
 ?>
 
-        <h2>Resorts</h2>
+        <h2>Resort Stats</h2>
         <table id="resortsTable">
             <tr>
                 <th>Resort</th>

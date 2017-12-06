@@ -100,3 +100,33 @@ td {
 #resortsTable tr td, #resortsTable tr th {
     padding: 0.5em 0em 0.5em 0.5em;
 }
+
+/* =================== FORM PAGE ==================================== */
+form {
+    margin-left: 10%;
+    font-family: sans-serif;
+    width: 80%;
+    margin-right: 10%;
+}
+
+#messageArticle {
+    margin-left: 10%;
+    font-family: sans-serif;
+}
+
+#errors {
+    margin-left: 10%;
+    font-family: sans-serif;
+    color: #FF0000;
+    list-style-type: disc;
+}
+
+#reviewArticle {
+    margin-left: 10%;
+    font-family: sans-serif;
+}
+
+#reviewArticle p {
+    margin-left: 10%;
+    font-family: sans-serif;
+}

@@ -37,6 +37,18 @@ $path_parts = pathinfo($phpSelf);
                 print_r($path_parts);
                 print '</pre></p>';
             }
+        
+        print  PHP_EOL . '<!-- include libraries -->' . PHP_EOL;
+ 
+        require_once('lib/security.php');
+        
+        if ($path_parts['filename'] == "contact") {
+            print PHP_EOL . '<!-- include form libraries -->' . PHP_EOL;
+            include 'lib/validation-functions.php';
+            include 'lib/mail-message.php';
+        }
+        
+        print  PHP_EOL . '<!-- finished including libraries -->' . PHP_EOL;
 ?>
 
     </head>
@@ -49,4 +61,5 @@ $path_parts = pathinfo($phpSelf);
     if ($debug) {
         print '<p>DEBUG MODE IS ON</p>';
     }
+   
     ?>

@@ -40,10 +40,6 @@ function sendMail($to, $cc, $bcc, $from, $subject, $message) {
     
     if(empty($from)){ return false;}
     
-    if(empty($comment)){ return false;}
-    
-    if(empty($vote)){ return false;}
-    
     if(empty($message)){ return false;}
     
     // message 

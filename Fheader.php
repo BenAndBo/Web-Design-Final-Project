@@ -1,3 +1,3 @@
-<header>
-    <h1>SHRED THE GNAR</h1>
+<header id="header">
+    <h1>SHRED VT</h1>
 </header>

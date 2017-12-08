@@ -63,18 +63,6 @@ nav ol li a:hover {
     color: #dddddd;
 }
 
-p{
-    border: solid black;
-    border-radius: 25px;
-    background-color: #839e99;
-    opacity: 0.8;
-    color: #ffffff;
-    text-align: center;
-    font-size: 14pt;
-    margin-bottom: 0em;
-    padding: 2.5em;
-}
-
 #about{
     width: 50%;
     height: auto;
@@ -86,12 +74,29 @@ p{
     text-align: center;
     font-size: 14pt;
     margin-bottom: 0em;
-    padding: 1em;
-    
+    margin-left: 5%;
+}
+
+#about li {
+    padding: 1em 1em 1em 1em;
 }
 
 #history{
+    border: solid black;
+    border-radius: 25px;
+    background-color: #839e99;
+    opacity: .8;
+    padding: 1em;
+    color: #ffffff;
     clear: both;
+    margin-right: 10%;
+    margin-left: 5%;
+    width: 80%;
+}
+
+h3 {
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 
@@ -104,6 +109,7 @@ p{
     border: solid black;
     border-radius: 15px;
     margin: 1em;
+    align-items: flex-start;
 }
 
 #bo {
@@ -113,13 +119,17 @@ p{
     border: solid black;
     border-radius: 15px;
     margin: 1em;
+    align-items: flex-start;
 }
 
 figure {
     float: right;
     clear: right;
-    margin-left: auto;
-    
+    margin-right: 5%;
+}
+
+#hist {
+    margin-top: 6em;
 }
 
 
@@ -174,48 +184,39 @@ td {
     color: #ffffff;
     text-align: left;
     font-size: 14pt;
-    margin: 2em 0;
     line-height: 3em;
-    
-    
+    margin-left: 5%;
+    width: 70%;
+    margin-right: 10%;
 }
 
 /* =================== FORM PAGE ==================================== */
 form {
     margin-left: 10%;
-    font-family: sans-serif;
     width: 80%;
     margin-right: 10%;
-    color: #ffffff;
-    background-color: #839e99;
 }
 
 #messageArticle {
     margin-left: 10%;
-    font-family: sans-serif;
 }
 
 #errors {
     margin-left: 10%;
-    font-family: sans-serif;
     color: #FF0000;
     list-style-type: disc;
 }
 
 #reviewArticle {
     margin-left: 10%;
-    font-family: sans-serif;
 }
 
 #reviewArticle p {
     margin-left: 10%;
-    font-family: sans-serif;
 }
 
-
-/* ==================== News ===========================*/
-
-#news{
+/*---------------- FACTS ---------------------*/
+#factsTable tr td {
     padding: 4em;
     border: solid black;
     border-radius: 25px;
@@ -224,8 +225,10 @@ form {
     color: #ffffff;
     text-align: left;
     font-size: 14pt;
-    margin: 2em 0;
-    line-height: 3em;
-    
-    
+    margin-bottom: 1em;
+    margin-left: 1em;
+}
+
+#factsTable {
+    width: 60%;
 }

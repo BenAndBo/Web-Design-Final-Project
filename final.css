@@ -209,3 +209,21 @@ form {
     margin-left: 10%;
     font-family: sans-serif;
 }
+
+
+/* ==================== News ===========================*/
+
+#news{
+    padding: 4em;
+    border: solid black;
+    border-radius: 25px;
+    background-color: #839e99;
+    opacity: 0.8;
+    color: #ffffff;
+    text-align: left;
+    font-size: 14pt;
+    margin: 2em 0;
+    line-height: 3em;
+    
+    
+}

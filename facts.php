@@ -58,10 +58,8 @@ include 'Ftop.php';
                 </td>
             </tr>
         </table>
-        
         <?php
         include 'Ffooter.php';
         ?>
-        
     </body>
 </html>

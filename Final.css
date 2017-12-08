@@ -195,6 +195,11 @@ form {
     margin-left: 10%;
     width: 80%;
     margin-right: 10%;
+    background-color: #839e99;
+    border: solid black;
+    border-radius: 25px;
+    padding: 1em 1em 1em 1em;
+    color: #ffffff
 }
 
 #messageArticle {
@@ -213,6 +218,10 @@ form {
 
 #reviewArticle p {
     margin-left: 10%;
+}
+
+fieldset {
+    border: thin solid black;
 }
 
 /*---------------- FACTS ---------------------*/

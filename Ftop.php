@@ -42,7 +42,7 @@ $path_parts = pathinfo($phpSelf);
  
         require_once('lib/security.php');
         
-        if ($path_parts['filename'] == "contact") {
+        if ($path_parts['filename'] == "vote") {
             print PHP_EOL . '<!-- include form libraries -->' . PHP_EOL;
             include 'lib/validation-functions.php';
             include 'lib/mail-message.php';

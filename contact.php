@@ -345,5 +345,8 @@ if (isset($_POST["btnSubmit"])) {
         }
         ?>
         </article>
+<?php
+include 'Ffooter.php';
+?>
     </body>
 </html>

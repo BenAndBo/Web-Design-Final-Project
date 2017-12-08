@@ -25,10 +25,10 @@ include 'Ftop.php';
         
 </article>
     
-    </body>
-    
     <?php
          include ('Ffooter.php');
     ?>
+    
+</body>
 
 </html>

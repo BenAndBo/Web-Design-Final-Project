@@ -27,11 +27,11 @@ include 'Ftop.php';
             </tr>
             <tr>
                 <td>
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/eb6q-oZS7Dk" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+                    <iframe width="320" height="240" src="https://www.youtube.com/embed/eb6q-oZS7Dk" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
                     <br>Johnny O'Connor's The Scenic Route: Ep 2 at Sugarbush Parks
                 </td>
                 <td>
-                    <iframe src="https://player.vimeo.com/video/246315214" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                    <iframe src="https://player.vimeo.com/video/246315214" width="320" height="240" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
                     <br>C Sessions 8.0 at Carinthia Parks
                 </td>
             </tr>

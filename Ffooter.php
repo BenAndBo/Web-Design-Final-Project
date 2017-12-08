@@ -1,3 +1,3 @@
-<footer>
-    <p> Created by Ben Wasser and Bo Warren </p>
+<footer id="footer">
+    <h1>Created by Ben Wasser and Bo Warren</h1>
 </footer>

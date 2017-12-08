@@ -107,6 +107,8 @@ foreach($resortDetails as $resortDetail) {
 }
 ?>
         </table>
-
+<?php
+include 'Ffooter.php';
+?>
     </body>
 </html>

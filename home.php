@@ -2,39 +2,43 @@
     include ('Ftop.php');
    
 ?>
-
-
-
-<article>
-    <body id="home">
         
-        <header>
-            <h1>Welcome to ShredVT!</h1>
-        </header>
+            <h2>Welcome to ShredVT!</h2>
         
      
         
     <article id="content">
-        <p>Welcome to ShredVT, the ideal space for Vermont skiers and riders to 
+        <h3>Welcome to ShredVT, the ideal space for Vermont skiers and riders to 
             come and explore the goings on in the Vermont snow sports community. 
             On ShredVT, you can read news updates about the various mountains, 
             check up on the conditions, compare prices, and check out what other 
-            skiers and riders are up to.</p>
-        
+            skiers and riders are up to.</h3>
         
         <figure>
-            <img id="ben" src="Images/benskiing.jpeg" img alt="Ben Skiing"
-                 
+            <img id="ben" src="Images/benskiing.jpeg" img alt="Ben Skiing"/>
+                 <figcaption>Ben shredding some pow in the Stowe backcountry</figcaption>  
         </figure> 
         
         <figure>
-            <img id="bo" src="Images/boboarding.png" img alt="Bo Snowboarding"
-                 
+            <img id="bo" src="Images/boboarding.png" img alt="Bo Snowboarding"/>
+                 <figcaption>Bo throwing down a nasty hand plant in a competition</figcaption>
         </figure> 
         
-        <h2>History of Skiing in Vermont</h2>
         
-        <p>Since the early 20’th century, skiing has been a part of Vermont 
+        <ul id="about">
+            
+            <li>My name is Ben Wasser, I am 19 years old, and I am generally referred to as the sickest skier on the mountain. I grew up in Stowe and have easily skied well over 1000 days on the slopes of Mt. Mansfield. I think growing up in Vermont is part of the reason that I have become the skier that I am today. The east coast offers a different kind of terrain than most ski mountains out west or in Europe. Its icy more often than not so you have to learn to carve hard, and there also are usually only 2-3 big powder dumps every year, so you have to take advantage and charge hard when you get them, or sometimes work with whatever snow the mountain gives you.</li>
+            
+            <li>My name is Bo Warren and I grew up snowboarding on the East Coast. I have been snowboarding for 14 years, however this is my first year riding primarily in Vermont. I have been to Vermont resorts a few times in the past but no more than a handful of days a year. I like being from the East Coast because of the gritty mentality. It doesn’t matter if it’s pouring rain and there is two trails open, you will surely see people ripping East Coast resorts day by day. You don’t get that kind of dedication anywhere else. This is why my colleague and I have decided to create a hub for Vermont rippers. We wanted to create a website where people who love riding Vermont could see mountain statistics, watch videos from Vermont resorts, and get the latest updates on the various resorts.</li>    
+            
+        </ul>
+        
+   
+        
+        
+        <h2 id="hist">History of Skiing in Vermont</h2>
+        
+        <p id="history">Since the early 20’th century, skiing has been a part of Vermont 
             culture. Back in 1934, a tow rope powered by a Model-T Ford was set 
             up on a slope on Clint Gilbert’s farm in Woodstock. This primitive 
             lift ushered in a new era of skiing to the entire United States, 

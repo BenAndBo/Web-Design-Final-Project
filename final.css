@@ -1,14 +1,41 @@
 body {
     background-image: url("Images/background.jpg");
-    background-size: cover;  
+    background-size: cover;   
 }
 
-h1 {
+#header {
     border: solid black;
-    font-family: sans-serif;
+    border-radius: 25px;
+    background-image: url("Images/background2.jpeg");
+    opacity: 0.9;
+    font-family: Copperplate;
+    color: #009900;
     text-align: center;
-    font-size: 3em;
+    text-shadow:
+   -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+     1px 1px 0 #000;
+    font-size: 24pt;
     margin-bottom: 0em;
+}
+
+#footer {
+    border: solid black;
+    border-radius: 25px;
+    background-image: url("Images/background2.jpeg");
+    opacity: 0.9;
+    font-family: Copperplate;
+    color: #009900;
+    text-align: center;
+    text-shadow:
+   -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+     1px 1px 0 #000;
+    font-size: 18pt;
+    margin-bottom: .5em;
+    margin-top: 2em;
 }
 
 nav ol li {
@@ -21,7 +48,9 @@ nav ol li {
 }
 
 nav ol {
+    border: solid black;
     background-color: #839e99;
+    opacity: 0.8;
     text-align: center;
 }
 
@@ -34,32 +63,65 @@ nav ol li a:hover {
     color: #dddddd;
 }
 
+p{
+    border: solid black;
+    border-radius: 25px;
+    background-color: #839e99;
+    opacity: 0.8;
+    color: #ffffff;
+    text-align: center;
+    font-size: 14pt;
+    margin-bottom: 0em;
+    padding: 2.5em;
+}
+
+#about{
+    width: 50%;
+    height: auto;
+    border: solid black;
+    border-radius: 25px;
+    background-color: #839e99;
+    opacity: 0.8;
+    color: #ffffff;
+    text-align: center;
+    font-size: 14pt;
+    margin-bottom: 0em;
+    padding: 1em;
+    
+}
+
+#history{
+    clear: both;
+}
+
+
 /*--------------IMAGES------------------*/
 
 #ben {
     display: inline-block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 250px;
-    height: 250px;
+    width: 240px;
+    height: 240px;
     border: solid black;
     border-radius: 15px;
-    float: left;
-   
+    margin: 1em;
 }
 
 #bo {
     display: inline-block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 250px;
-    height: 250px;
+    width: 240px;
+    height: 240px;
     border: solid black;
     border-radius: 15px;
-    float: right;
-    
-   
+    margin: 1em;
 }
+
+figure {
+    float: right;
+    clear: right;
+    margin-left: auto;
+    
+}
+
 
 
 /* =================== MEDIA PAGE ==================================== */
@@ -99,6 +161,23 @@ td {
 
 #resortsTable tr td, #resortsTable tr th {
     padding: 0.5em 0em 0.5em 0.5em;
+}
+
+/* ==================== News ===========================*/
+
+#news{
+    padding: 4em;
+    border: solid black;
+    border-radius: 25px;
+    background-color: #839e99;
+    opacity: 0.8;
+    color: #ffffff;
+    text-align: left;
+    font-size: 14pt;
+    margin: 2em 0;
+    line-height: 3em;
+    
+    
 }
 
 /* =================== FORM PAGE ==================================== */

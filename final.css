@@ -186,6 +186,8 @@ form {
     font-family: sans-serif;
     width: 80%;
     margin-right: 10%;
+    color: #ffffff;
+    background-color: #839e99;
 }
 
 #messageArticle {
